@@ -16,6 +16,3 @@ $.getJSON("https://raw.githubusercontent.com/gbrunner/adv-python-for-gis-and-rs/
   var heat = L.heatLayer(coordinatesOnly).addTo(map);
 });
 
-
-// make it so the heatmap becomes points at a certain zoom scale
-// hint: https://gis.stackexchange.com/questions/258515/show-hide-markers-depending-on-zoom-level
